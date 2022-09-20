@@ -1,4 +1,4 @@
-package response;
+package br.com.feignwebflux.webfluxreactivefeignstarwars.response;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import java.util.List;

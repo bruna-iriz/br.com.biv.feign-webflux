@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import reactor.core.publisher.Mono;
-import response.FilmsResponse;
-import response.PeopleResponse;
+import br.com.feignwebflux.webfluxreactivefeignstarwars.response.FilmsResponse;
+import br.com.feignwebflux.webfluxreactivefeignstarwars.response.PeopleResponse;
 
 @RestController
 @AllArgsConstructor

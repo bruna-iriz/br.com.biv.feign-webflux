@@ -4,8 +4,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import reactivefeign.spring.config.ReactiveFeignClient;
 import reactor.core.publisher.Mono;
-import response.FilmsResponse;
-import response.PeopleResponse;
+import br.com.feignwebflux.webfluxreactivefeignstarwars.response.FilmsResponse;
+import br.com.feignwebflux.webfluxreactivefeignstarwars.response.PeopleResponse;
 
 @ReactiveFeignClient(url = "https://swapi.dev.api/", name = "star-wars")
 public interface StarWarsFeignClient {
