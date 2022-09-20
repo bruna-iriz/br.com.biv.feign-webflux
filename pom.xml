@@ -5,14 +5,14 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.7.3</version>
+        <version>2.5.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>br.com.biv.feign-webflux</groupId>
     <artifactId>webflux-reactive-feign-starwars</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>webflux-reactive-feign-starwars</name>
-    <description>Projeto utilizando reactive feign</description>
+    <description>Projeto utilizando Webflux e Reactive Feign</description>
     <properties>
         <feign-reactor.version>3.0.3</feign-reactor.version>
         <java.version>11</java.version>
@@ -29,13 +29,11 @@
             <artifactId>feign-reactor-webclient</artifactId>
             <version>${feign-reactor.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.playtika.reactivefeign</groupId>
             <artifactId>feign-reactor-cloud</artifactId>
             <version>${feign-reactor.version}</version>
         </dependency>
-
         <dependency>
             <groupId>com.playtika.reactivefeign</groupId>
             <artifactId>feign-reactor-spring-configuration</artifactId>
